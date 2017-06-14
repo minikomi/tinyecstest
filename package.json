@@ -1,0 +1,23 @@
+{
+  "name": "tinyecstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^4.5.3",
+    "tiny-ecs": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.6.1"
+  }
+}
