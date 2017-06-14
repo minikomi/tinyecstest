@@ -1,4 +1,4 @@
-var EntityManager = require("tiny-ecs").EntityManager;
+var EntityManager = require("nano-ecs");
 var PIXI = require("pixi.js");
 
 
@@ -77,7 +77,7 @@ function init() {
   renderer.view.style.position = "absolute";
   document.body.appendChild(renderer.view);
 
-  for(var i = 0; i < 50000; i++) {
+  for(var i = 0; i < 20000; i++) {
     var newBunny = makeBunny(entities, stage, Math.random() * 800, Math.random() * 600);
   }
 

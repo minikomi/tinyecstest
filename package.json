@@ -10,14 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pixi.js": "^4.5.3",
-    "tiny-ecs": "^2.0.0"
+    "pixi.js": "^4.5.3"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.5.2",
     "html-webpack-plugin": "^2.28.0",
+    "nano-ecs": "^2.2.0",
     "webpack": "^2.6.1"
   }
 }
